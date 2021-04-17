@@ -1,0 +1,35 @@
+.navigation{
+    display: flex;
+    height: 10vh;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+@media only screen and (max-width: 850px) {
+    .navigation{
+      font-size: 2vw;
+    }
+}
+
+.name{
+    color: white;
+    border-color: white;
+    margin: auto 0 auto 0;
+
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: orange;
+}
+.nav-links{
+    margin: auto 0 auto auto;
+}
+.nav-link{
+    padding: 0.5vw 1vw;
+    margin: 1vw;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    border-bottom: 1px solid orange;
+}
